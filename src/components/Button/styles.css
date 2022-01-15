@@ -1,0 +1,19 @@
+button.button {
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+button.button:hover {
+  background: blue;
+}
+
+button.button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
