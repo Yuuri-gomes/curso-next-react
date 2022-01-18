@@ -1,5 +1,5 @@
 import { useCallback, useEffect } from "react";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { ButtonComponent } from "../../components/Button";
 import { PostsComponent } from "../../components/Posts/index";
 import { SearchInputComponent } from "../../components/SearchInput";
